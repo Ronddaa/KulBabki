@@ -1,0 +1,121 @@
+
+/*===========About US============*/
+
+.about-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+}
+
+.text-decorator {
+    color: #BEA69E;
+}
+
+.about-photo {
+    margin: 40px 0;
+    width: auto;
+
+
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.about-item {}
+
+.about-text {
+    color: #FFF;
+
+    font-weight: 400;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+}
+
+/*==========Tablet Adaptiv==========*/
+@media (min-width:768px) {
+    .about-title {
+        margin-bottom: 50px;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 54px;
+
+        letter-spacing: -1.92px;
+    }
+
+    .about-photo {
+        margin-bottom: 50px;
+    }
+
+    .about-list {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .about-item {
+        max-width: 280px;
+    }
+
+    .about-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.32px;
+    }
+}
+
+/*============Dekstop vers==========*/
+
+@media (min-width:1280px) {
+
+    .aboutus-wrapper{
+        margin: 0;
+    }
+
+    .about-title{
+        font-size: 48px;
+        line-height: 54px;       
+        letter-spacing: -1.92px;
+    }
+
+    .wrapp-content{
+        display: flex;
+        flex-direction: row;
+        gap:40px;
+        justify-content: space-between;
+    }
+
+    .about-photo{
+        max-width: 480px;
+        
+        margin: 0;
+        
+    }
+
+    .about-list{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-item{
+        max-width: 268px;
+    }
+
+    .about-text{
+        font-size: 16px;  
+        line-height: 20px;           
+        letter-spacing: -0.32px;
+    }
+}
+
+@media (min-width:1440px) {
+    .about-photo{
+        max-width: 560px;
+    }
+}

@@ -1,4 +1,8 @@
 /* Reset styles */
+html {
+scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -7,10 +11,6 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
 }
 
 ul {

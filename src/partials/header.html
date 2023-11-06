@@ -1,13 +1,69 @@
+<!-- Snuff-->
 <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+  <div class="container header-container">
+    <div class="header-wrap">
+      <a href="./index.html" class="hero-logo-link" aria-label="logo"
+        ><svg class="header-logo">
+          <use href="./img/icons.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <nav class="hero-navigation-menu">
+        <ul class="hero-navigation-list">
+          <li class="hero-navigation-item">
+            <a href="#about-us" class="hero-navigation-link">About us</a>
+          </li>
+          <li class="hero-navigation-item">
+            <a href="#our-courses" class="hero-navigation-link">Our courses</a>
+          </li>
+          <li class="hero-navigation-item">
+            <a href="#our-mentors" class="hero-navigation-link">Our mentors</a>
+          </li>
+          <li class="hero-navigation-item">
+            <a href="#reviews" class="hero-navigation-link">Reviews</a>
+          </li>
+          <li class="hero-navigation-item">
+            <a href="#footer" class="hero-navigation-link">contacts</a>
+          </li>
+        </ul>
+      </nav>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+      <div class="header-content-wrap">
+        <a class="header-sign-up" href="#sing-in" aria-label="camera"
+          ><svg width="16" height="16" class="header-sign-up-icon">
+            <use href="./img/icons.svg#icon-camera"></use>
+          </svg>
+        </a>
+        <button type="button" class="header-burger-button" id="open-burger-menu">
+          <span class="strip"></span>
+          <span class="strip strip-center"></span>
+          <span class="strip"></span>
+        </button>
+      </div>
+    </div>
+    <div>
+      <a href="#sing-in" class="header-sign-up-link">Sign up</a>
+    </div>
+  </div>
+  <div class="backdrop-mobal" id="burger-menu">
+    <div class="modal-burger">
+      <button type="button" class="button-burger" id="close-burger-menu">
+        <svg width="32" height="32">
+          <use href="./img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="nav-burger">
+        <li><a class="burger-item" href="#about-us">About us</a></li>
+        <li><a class="burger-item" href="#our-courses">Our courses</a></li>
+        <li><a class="burger-item" href="#our-mentors">Our mentors</a></li>
+        <li><a class="burger-item" href="#reviews">Reviews</a></li>
+        <li><a class="burger-item" href="#footer">contacts</a></li>
+      </ul>
+      <img
+      class="camera-modal"
+      src="./img/rectangle2.webp"
+      alt="camera"
+      width="329"
+      height="218">
+      </div>
+  </div>
 </header>
