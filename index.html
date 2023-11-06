@@ -1,83 +1,580 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/KulBabki/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/KulBabki/photo.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Focus.Frame</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
     
     <script type="module" crossorigin src="/KulBabki/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/KulBabki/assets/index-10c40100.css">
+    <link rel="stylesheet" href="/KulBabki/assets/index-a5310552.css">
   </head>
   <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+    <div class="background-header-hero">
+      <!-- Snuff-->
+<header class="header">
+  <div class="container header-container">
+    <div class="header-wrap">
+      <a href="./index.html" class="hero-logo-link" aria-label="logo"
+        ><svg class="header-logo">
+          <use href="/KulBabki/assets/icons-2752eea6.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <nav class="hero-navigation-menu">
+        <ul class="hero-navigation-list">
+          <li class="hero-navigation-item">
+            <a href="#about-us" class="hero-navigation-link">About us</a>
+          </li>
+          <li class="hero-navigation-item">
+            <a href="#our-courses" class="hero-navigation-link">Our courses</a>
+          </li>
+          <li class="hero-navigation-item">
+            <a href="#our-mentors" class="hero-navigation-link">Our mentors</a>
+          </li>
+          <li class="hero-navigation-item">
+            <a href="#reviews" class="hero-navigation-link">Reviews</a>
+          </li>
+          <li class="hero-navigation-item">
+            <a href="#footer" class="hero-navigation-link">contacts</a>
+          </li>
+        </ul>
+      </nav>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+      <div class="header-content-wrap">
+        <a class="header-sign-up" href="#sing-in" aria-label="camera"
+          ><svg width="16" height="16" class="header-sign-up-icon">
+            <use href="/KulBabki/assets/icons-2752eea6.svg#icon-camera"></use>
+          </svg>
+        </a>
+        <button type="button" class="header-burger-button" id="open-burger-menu">
+          <span class="strip"></span>
+          <span class="strip strip-center"></span>
+          <span class="strip"></span>
+        </button>
+      </div>
+    </div>
+    <div>
+      <a href="#sing-in" class="header-sign-up-link">Sign up</a>
+    </div>
+  </div>
+  <div class="backdrop-mobal" id="burger-menu">
+    <div class="modal-burger">
+      <button type="button" class="button-burger" id="close-burger-menu">
+        <svg width="32" height="32">
+          <use href="/KulBabki/assets/icons-2752eea6.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="nav-burger">
+        <li><a class="burger-item" href="#about-us">About us</a></li>
+        <li><a class="burger-item" href="#our-courses">Our courses</a></li>
+        <li><a class="burger-item" href="#our-mentors">Our mentors</a></li>
+        <li><a class="burger-item" href="#reviews">Reviews</a></li>
+        <li><a class="burger-item" href="#footer">contacts</a></li>
+      </ul>
+      <img
+      class="camera-modal"
+      src="/KulBabki/assets/rectangle2-fcb84ea2.webp"
+      alt="camera"
+      width="329"
+      height="218">
+      </div>
+  </div>
 </header>
 
-
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/KulBabki/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
     </div>
+    <main class="main">
 
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
+       <div class="background-header-hero">
+        <!-- Snuff -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-wrap">
+      <div>
+        <h1 class="hero-heder">
+          Discover the magic of
+          <span class="hero-photography">photography</span> in our school
+        </h1>
+        <p class="hero-text">
+          Our photography school offers an unforgettable journey, where you can
+          learn the basics of composition, master technical skills, translate
+          your unique ideas.
+        </p>
+
+        <div class="hero-students-reviews">
+          <div class="hero-students-block">
+            <div class="hero-students">
+              <img
+                src="/KulBabki/assets/girl-hero-30c1bc08.svg"
+                alt="happy student girl"
+                class="hero-student-img hero-first-student"
+                width="44"
+                height="44"
+              /><img
+                src="/KulBabki/assets/boy-hero-874f1688.svg"
+                alt="happy student man"
+                class="hero-student-img hero-second-student"
+                width="44"
+                height="44"
+              />
+              <img
+                src="/KulBabki/assets/girl2-hero-d37a17ad.svg"
+                alt="happy student second girl"
+                class="hero-student-img hero-third-student"
+                width="44"
+                height="44"
+              />
+            </div>
+            <div class="hero-happy-wrap">
+              <a href="#" class="hero-happy-link">Our happy students</a>
+              <svg class="hero-arrow-icon" width="18" height="9">
+                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-arrow"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="hero-reviews-wrap">
+            <div class="hero-star">
+              <svg class="hero-star-icon" width="20" height="20">
+                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-star"></use>
+              </svg>
+            </div>
+            <div>
+              <p class="hero-reviews-text">Reviews</p>
+              <p class="hero-reviews-number">+1500</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <img
-        class="pic"
-        src="/KulBabki/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
+        src="/KulBabki/assets/rectangle1-25b34083.webp"
+        alt="men with a camera"
+        class="hero-img"
+        width="259"
+        height="314"
       />
     </div>
   </div>
 </section>
+
+      </div>
+      <section class="sec-run-line">
+    <div class="run-line">
+        <h2 class="run-line-title"><span class="text-decorator">Master</span> your photography <span
+                class="text-decorator">skills with us!</span></h2>
+    </div>
+</section>
+      <!-- Danil -->
+
+<section class="about-us" id="about-us">
+    <div class="aboutus-wrapper container">
+        <h2 class="about-title">
+            About <span class="text-decorator">Us</span>
+        </h2>
+        <div class="wrapp-content">
+        <article class="about-us-photo">
+            <img class="about-photo" src="/KulBabki/assets/Rectangle6-e1c1c873.webp" alt="camera" width="209" height="260">
+        </article>
+        <ul class="about-list">
+            <li class="about-item">
+                <p class="about-text">Our photography school is designed to teach you everything you need to know about
+                    this magical art. Regardless of your
+                    experience or skill level, we offer a wide range of courses to suit your needs and interests. Our
+                    teaching team consists
+                    of experienced photographers who have many years of experience in this field. They strive not only
+                    to share their
+                    knowledge, but also to inspire you to develop and express your unique creativity.</p>
+            </li>
+
+            <li class="about-item">
+                <p class="about-text">Our courses cover a wide range of topics, from the basics of photography and
+                    equipment use to professional image
+                    processing and creating impressive compositions. You will have the opportunity to learn the
+                    technical aspects of
+                    photography, discover your own style and develop your own visual language.</p>
+            </li>
+        </ul>
+        </div>
+    </div>
+</section>
+      <!-- No name))))) -->
+<section class="our-courses-content" id="our-courses">
+    <div class="our-courses-wrapper container">
+        <div class="course-title-wrapper">
+            <h2 class="our-courses-title">Our <span class="our-courses-span">Courses</span></h2>
+            <p class="our-courses-p">At our photography school, we offer a variety of courses that cover all aspects of this fascinating art. Regardless of your experience or skill level, we have courses to suit your needs and goals.</p>
+        </div>
+        <ul class="our-courses-list">
+            <li class="our-courses-item">
+                <div class="course-card-header-wrapper">
+                    <div class="card-number">01</div>
+                    <div class="card-icon-wrapper">
+                        <a href="#sing-in" class="card-button-link" aria-label="arrow">
+                            <svg class="card-icon" width="20" height="20"><use href="/KulBabki/assets/icons-2752eea6.svg#icon-arrow-up-right"></use></svg>
+                        </a>
+                    </div>
+                </div>
+                <article class="course-card-main">
+                    <h3 class="card-title">Basics of <br> photography</h3>
+                    <p class="card-p">During this course, you will be able to familiarize yourself with different types of cameras, learn the basics of composition.</p>
+                </article>
+            </li>
+            <li class="our-courses-item">
+                <div class="course-card-header-wrapper">
+                    <div class="card-number">02</div>
+                    <div class="card-icon-wrapper">
+                        <a href="#sing-in" class="card-button-link" aria-label="arrow">
+                            <svg class="card-icon" width="20" height="20"><use href="/KulBabki/assets/icons-2752eea6.svg#icon-arrow-up-right"></use></svg>
+                        </a>
+                    </div>
+                </div>
+                <article class="course-card-main">
+                    <h3 class="card-title">Landscape <br> photography</h3>
+                    <p class="card-p">In this course, you'll learn how to choose the right angles, frame landscapes, and create depth and perspective in your images.</p>
+                </article>
+            </li>
+            <li class="our-courses-item">
+                <div class="course-card-header-wrapper">
+                    <div class="card-number">03</div>
+                    <div class="card-icon-wrapper">
+                        <a href="#sing-in" class="card-button-link" aria-label="arrow">
+                            <svg class="card-icon" width="20" height="20"><use href="/KulBabki/assets/icons-2752eea6.svg#icon-arrow-up-right"></use></svg>
+                        </a>
+                    </div>
+                </div>
+                <article class="course-card-main">
+                    <h3 class="card-title">Portrait <br> photography</h3>
+                    <p class="card-p">During this course, you will learn to choose the right lighting, reproduce the mood and expressions on the faces of the models.</p>
+                </article>
+            </li>
+        </ul>
+    </div>
+</section>
+      <!-- Анастасия -->
+<section class="mentors" id="our-mentors">
+  <div class="container container-mentors">
+    <h2 class="mentors-titel">
+      Our<span class="mentors-titel-span"> Mentors</span>
+    </h2>
+    <ul class="mentors-list">
+      <li class="mentors-item">
+        <img
+          src="/KulBabki/assets/girl1-c3ef6945.webp"
+          alt="Emilia Smith mentor"
+          width="180"
+          height="180"
+          class="mentors-image"
+        />
+        <div class="mentors-name">
+          <h3 class="mentors-subtitel">Emilia Smith</h3>
+          <p class="mentors-text">1.5 years of experienc</p>
+        </div>
+      </li>
+      <li class="mentors-item">
+        <img
+          src="/KulBabki/assets/boy1-912d57a7.webp"
+          alt="Alex Lebedev mentor"
+          width="180"
+          height="180"
+          class="mentors-image"
+        />
+        <div class="mentors-name">
+          <h3 class="mentors-subtitel">Alex Lebedev</h3>
+          <p class="mentors-text">3.5 years of experience</p>
+        </div>
+      </li>
+      <li class="mentors-item item-mia">
+        <img
+          src="/KulBabki/assets/girl2-ae010f5c.webp"
+          alt="Mia Dubrovska mentor"
+          width="180"
+          height="180"
+          class="mentors-image"
+        />
+        <div class="mentors-name">
+          <h3 class="mentors-subtitel">Mia Dubrovska</h3>
+          <p class="mentors-text">2.0 years of experience</p>
+        </div>
+      </li>
+      <li class="mentors-item">
+        <img
+          src="/KulBabki/assets/boy2-7bb494f8.webp"
+          alt="Eliot Kovalev mentor"
+          width="180"
+          height="180"
+          class="mentors-image"
+        />
+        <div class="mentors-name">
+          <h3 class="mentors-subtitel">Eliot Kovalev</h3>
+          <p class="mentors-text">4.0 years of experience</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="sect-sign" id="sing-in">
+  <div class="container sign-wrap-tabl">
+    <div class="sign-first-div">
+      <h2 class="sign-header">Sign <span class="sign-header-span">Up</span></h2>
+      <p class="sign-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="sign-form">
+        <div class="sign-form-inp-wrap">
+          <input
+            class="sign-form-inp inpt"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Enter your name"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          />
+        </div>
+        <div class="sign-form-inp-wrap">
+          <input
+            class="sign-form-inp inpt"
+            type="email"
+            name="user-mail"
+            id="user-mail"
+            placeholder="Enter your email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          />
+        </div>
+        <div class="sign-form-txtarea-wrap">
+          <textarea
+            class="sign-form-txtarea inpt"
+            name="user-message"
+            id="user-message"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <div class="sign-form-wrap">
+          <button class="sign-form-btn" type="submit">Send</button>
+          <p class="sign-form-text-btn">
+            By clicking on &#34;Send&#34; button, you agree to our
+            <a class="sign-form-link" href="#">Privacy Policy</a>,
+            <br class="sign-form-br" />
+            and allow Promodo to use this information for marketing purposes.
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="sign-second-div">
+      <ul class="sign-second-div-list">
+        <li class="sign-second-div-first-item">
+          <img
+            class="sign-img-first"
+            src="/KulBabki/assets/isabella-mendes-f4a2ad39.webp"
+            alt="lens"
+            width="190"
+            height="142"
+          />
+        </li>
+        <li class="sign-second-div-second-item">
+          <img
+            class="sign-img-second"
+            src="/KulBabki/assets/video-entry-product-a99e975b.webp"
+            alt="professional camera"
+            width="240"
+            height="296"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <!-- bogdan -->
+<section class="reviews" id="reviews">
+
+    <div class="container wrapper-reviews">
+
+        <h2 class="title-reviews">Reviews</h2>
+
+        <ul class="wrapper-comments-all">
+
+            <li class="wrapper-comments">
+                <div class="wrapper-user-info">
+
+                    <img src="/KulBabki/assets/user1-da84d753.webp" alt="Abraham" class="user-comments-photo" width="56" height="56">
+
+                    <article class="wrapper-user-name">
+                        <h3 class="user-name">Abraham Baker</h3>
+                        <p class="user-text-p">Student</p>
+                        <div class="wrapper-mmr">
+                            <svg class="plus-mmr" width="16" height="16">
+                                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-star-reviews"></use>
+                            </svg>
+                            <svg class="plus-mmr" width="16" height="16">
+                                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-star-reviews"></use>
+                            </svg>
+                            <svg class="plus-mmr" width="16" height="16">
+                                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-star-reviews"></use>
+                            </svg>
+                            <svg class="plus-mmr" width="16" height="16">
+                                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-star-reviews"></use>
+                            </svg>
+                            <svg class="minus-mmr" width="16" height="16">
+                                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-star"></use>
+                            </svg>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="user-comments-text">I am very pleased that I decided to enroll in photography school. 
+                        The teachers turned out to be very talented and experienced professionals who share their knowledge 
+                        and are dedicated to their work. I was able to expand my skills and discover my own style.</p>
+               
+            </li>
+
+            <li class="wrapper-comments">
+                <div class="wrapper-user-info">
+
+                    <img src="/KulBabki/assets/user2-25e7321b.webp" alt="Abraham" class="user-comments-photo" width="56" height="56">
+
+                    <article class="wrapper-user-name">
+                        <h3 class="user-name">Amanda Lowery</h3>
+                        <p class="user-text-p">Student</p>
+                        <div class="wrapper-mmr">
+                            <svg class="plus-mmr" width="16" height="16">
+                                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-star-reviews"></use>
+                            </svg>
+                            <svg class="plus-mmr" width="16" height="16">
+                                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-star-reviews"></use>
+                            </svg>
+                            <svg class="plus-mmr" width="16" height="16">
+                                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-star-reviews"></use>
+                            </svg>
+                            <svg class="plus-mmr" width="16" height="16">
+                                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-star-reviews"></use>
+                            </svg>
+                            <svg class="minus-mmr" width="16" height="16">
+                                <use href="/KulBabki/assets/icons-2752eea6.svg#icon-star"></use>
+                            </svg>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="user-comments-text">The courses at the photography school exceeded all my expectations.
+                    I gained not only technical knowledge, but also inspiration and motivation to reach new heights in my creativity.
+                    Hands-on classes and workshops helped me understand different styles of photography.</p>
+            </li>
+        </ul>
+    </div>
+
+</section>
+
+    </main>
+
+    <footer class="footer" id="footer">
+  <div class="footer-container container">
+    <div class="footer-address-soc-btn">
+      <div class="footer-address-wrap">
+        <a href="./index.html" class="footer-link-logo" aria-label="logo">
+          <svg class="footer-icon">
+            <use href="/KulBabki/assets/icons-2752eea6.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="footer-list-address">
+          <li class="footer-address-item">
+            <a
+              href="tel:+380665438912"
+              class="footer-address-link"
+              target="_blank"
+              >UK: +38 066 543 89 12</a
+            >
+          </li>
+          <li class="footer-address-item">
+            <a
+              href="https://www.google.com/maps/place/Kyiv,+02000/@50.4020075,30.2030542,10z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf4ee15a4505:0x764931d2170146fe!8m2!3d50.4501!4d30.5234!16zL20vMDJzbjM0?entry=ttu"
+              class="footer-address-link"
+              target="_blank"
+              >Ukraine, Kyiv</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="footer-soc-wrap">
+        <div class="footer-soc-container">
+          <ul class="footer-list-soc">
+            <li class="footer-soc-item">
+              <a
+                href="https://www.instagram.com/goitclub/"
+                class="footer-soc-link"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li class="footer-soc-item">
+              <a
+                href=" https://www.facebook.com/goITclub/"
+                class="footer-soc-link"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li class="footer-soc-item">
+              <a
+                href="https://www.youtube.com/c/GoIT"
+                class="footer-soc-link"
+                target="_blank"
+                >Youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-container-wrap">
+          <ul class="footer-list-soc">
+            <li class="footer-soc-item">
+              <a href="#about-us" class="footer-link">About us</a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="#our-courses" class="footer-link">Our courses</a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="#our-mentors">Our mentors</a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="#reviews" class="footer-link">Reviews</a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="#footer" class="footer-link">contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-form-wrap">
+        <form class="footer-form-input">
+          <label class="footer-label">
+            <input
+              type="email"
+              name="users-mail"
+              id="users-mail"
+              class="footer-input"
+              placeholder="Enter your email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              required
+            />
+          </label>
+          <button type="submit" class="footer-button">Go</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-text-wrap">
+      <p class="footer-text">
+        Privacy Policy <br />
+        Public Offering Agreement
+      </p>
+      <p class="footer-text footer-fixed-text">
+        2023 Focus Frame &copy; All rights reserved
+      </p>
+    </div>
+  </div>
+</footer>
 
 
     
