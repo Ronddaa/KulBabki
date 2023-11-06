@@ -81,7 +81,8 @@
 .hero-arrow-icon {
   position: relative;
   fill: #fff;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: margin-left 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-arrow-icon:hover,
 .hero-arrow-icon:focus {
@@ -91,7 +92,7 @@
 .hero-happy-link:hover + .hero-arrow-icon,
 .hero-happy-link:focus + .hero-arrow-icon{
   fill: #bea69e;
-  left: 15px;
+  margin-left: 15px;
 }
 .hero-reviews-wrap {
   display: flex;
