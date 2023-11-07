@@ -57,13 +57,27 @@
           </div>
         </div>
       </div>
-      <img
-        src="./img/rectangle1.webp"
-        alt="men with a camera"
-        class="hero-img"
-        width="259"
-        height="314"
-      />
+      <picture>
+        <source
+          srcset="../img/rectangle1.webp 1x, ../img/rectangle1_2x.webp 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="../img/rectangle1.webp 1x, ../img/rectangle1_2x.webp 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="../img/rectangle1.webp 1x, ../img/rectangle1_2x.webp 2x"
+          media="(min-width: 375px)"
+        />
+        <img
+          src="./img/rectangle1.webp"
+          alt="men with a camera"
+          class="hero-img"
+          width="259"
+          height="314"
+        />
+      </picture>
     </div>
   </div>
 </section>

@@ -183,3 +183,9 @@
     margin-top: 185px;
   }
 }
+
+@media (min-width: 1440px){
+  .hero-wrap{
+    gap: 150px;
+  }
+}
