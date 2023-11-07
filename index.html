@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
     
     <script type="module" crossorigin src="/KulBabki/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/KulBabki/assets/index-d2a8f607.css">
+    <link rel="stylesheet" href="/KulBabki/assets/index-20faed29.css">
   </head>
   <body>
     <div class="background-header-hero">
@@ -150,13 +150,27 @@
           </div>
         </div>
       </div>
-      <img
-        src="/KulBabki/assets/rectangle1-25b34083.webp"
-        alt="men with a camera"
-        class="hero-img"
-        width="259"
-        height="314"
-      />
+      <picture>
+        <source
+          srcset="../img/rectangle1.webp 1x, ../img/rectangle1_2x.webp 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="../img/rectangle1.webp 1x, ../img/rectangle1_2x.webp 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="../img/rectangle1.webp 1x, ../img/rectangle1_2x.webp 2x"
+          media="(min-width: 375px)"
+        />
+        <img
+          src="/KulBabki/assets/rectangle1-25b34083.webp"
+          alt="men with a camera"
+          class="hero-img"
+          width="259"
+          height="314"
+        />
+      </picture>
     </div>
   </div>
 </section>
@@ -171,36 +185,59 @@
       <!-- Danil -->
 
 <section class="about-us" id="about-us">
-    <div class="aboutus-wrapper container">
-        <h2 class="about-title">
-            About <span class="text-decorator">Us</span>
-        </h2>
-        <div class="wrapp-content">
-        <div class="about-us-photo">
-            <img class="about-photo" src="/KulBabki/assets/rectangle6-e1c1c873.webp" alt="camera" width="209" height="260">
-        </div>
-        <ul class="about-list">
-            <li class="about-item">
-                <p class="about-text">Our photography school is designed to teach you everything you need to know about
-                    this magical art. Regardless of your
-                    experience or skill level, we offer a wide range of courses to suit your needs and interests. Our
-                    teaching team consists
-                    of experienced photographers who have many years of experience in this field. They strive not only
-                    to share their
-                    knowledge, but also to inspire you to develop and express your unique creativity.</p>
-            </li>
+  <div class="aboutus-wrapper container">
+    <h2 class="about-title">About <span class="text-decorator">Us</span></h2>
+    <div class="wrapp-content">
+      <div class="about-us-photo">
+        <picture>
+          <source
+            srcset="/KulBabki/assets/rectangle6-e1c1c873.webp 1x, /KulBabki/assets/rectangle6_x2-9de2697b.webp 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/KulBabki/assets/rectangle6-e1c1c873.webp 1x, /KulBabki/assets/rectangle6_x2-9de2697b.webp 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/KulBabki/assets/rectangle6-e1c1c873.webp 1x, /KulBabki/assets/rectangle6_x2-9de2697b.webp 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            class="about-photo"
+            src="/KulBabki/assets/rectangle6-e1c1c873.webp"
+            alt="camera"
+            width="209"
+            height="260"
+          />
+        </picture>
+      </div>
+      <ul class="about-list">
+        <li class="about-item">
+          <p class="about-text">
+            Our photography school is designed to teach you everything you need
+            to know about this magical art. Regardless of your experience or
+            skill level, we offer a wide range of courses to suit your needs and
+            interests. Our teaching team consists of experienced photographers
+            who have many years of experience in this field. They strive not
+            only to share their knowledge, but also to inspire you to develop
+            and express your unique creativity.
+          </p>
+        </li>
 
-            <li class="about-item">
-                <p class="about-text">Our courses cover a wide range of topics, from the basics of photography and
-                    equipment use to professional image
-                    processing and creating impressive compositions. You will have the opportunity to learn the
-                    technical aspects of
-                    photography, discover your own style and develop your own visual language.</p>
-            </li>
-        </ul>
-        </div>
+        <li class="about-item">
+          <p class="about-text">
+            Our courses cover a wide range of topics, from the basics of
+            photography and equipment use to professional image processing and
+            creating impressive compositions. You will have the opportunity to
+            learn the technical aspects of photography, discover your own style
+            and develop your own visual language.
+          </p>
+        </li>
+      </ul>
     </div>
+  </div>
 </section>
+
       <!-- No name))))) -->
 <section class="our-courses-content" id="our-courses">
     <div class="our-courses-wrapper container">
@@ -368,22 +405,68 @@
     <div class="sign-second-div">
       <ul class="sign-second-div-list">
         <li class="sign-second-div-first-item">
-          <img
-            class="sign-img-first"
-            src="/KulBabki/assets/isabella-mendes-f4a2ad39.webp"
-            alt="lens"
-            width="190"
-            height="142"
-          />
+          <picture>
+            <source
+              srcset="
+                ./img/isabella-mendes.webp    1x,
+                ./img/isabella-mendes_x2.webp 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/isabella-mendes.webp    1x,
+                ./img/isabella-mendes_x2.webp 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/isabella-mendes.webp    1x,
+                ./img/isabella-mendes_x2.webp 2x
+              "
+              media="(min-width: 375px)"
+            />
+            <img
+              class="sign-img-first"
+              src="/KulBabki/assets/isabella-mendes-f4a2ad39.webp"
+              alt="lens"
+              width="190"
+              height="142"
+            />
+          </picture>
         </li>
         <li class="sign-second-div-second-item">
-          <img
-            class="sign-img-second"
-            src="/KulBabki/assets/video-entry-product-a99e975b.webp"
-            alt="professional camera"
-            width="240"
-            height="296"
-          />
+          <picture>
+            <source
+              srcset="
+                ./img/video-entry-product.webp    1x,
+                ./img/video-entry-product_x2.webp 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/video-entry-product.webp    1x,
+                ./img/video-entry-product_x2.webp 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/video-entry-product.webp    1x,
+                ./img/video-entry-product_x2.webp 2x
+              "
+              media="(min-width: 375px)"
+            />
+            <img
+              class="sign-img-second"
+              src="/KulBabki/assets/video-entry-product-a99e975b.webp"
+              alt="professional camera"
+              width="240"
+              height="296"
+            />
+          </picture>
         </li>
       </ul>
     </div>
