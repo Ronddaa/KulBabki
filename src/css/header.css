@@ -8,7 +8,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
   background-color: #121212;
 }
 .header-logo {
@@ -135,7 +134,6 @@
     justify-content: end;
   }
   .header-wrap {
-    height: 60px;
     width: 100%;
   }
   .header-sign-up {
@@ -184,7 +182,7 @@ width: 100%;
   }
   .header-wrap {
     justify-content: space-between;
-    padding: 22px 50px;
+    padding: 0px 50px;
   }
   .header-content-wrap {
     display: none;
@@ -207,6 +205,7 @@ width: 100%;
   .hero-navigation-item {
   }
   .hero-navigation-link {
+    padding: 21px 0;
     text-transform: uppercase;
     line-height: normal;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);

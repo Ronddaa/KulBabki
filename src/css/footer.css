@@ -1,4 +1,6 @@
 .footer {
+padding: 40px 0 20px;
+
   background-image: url(../img/graphic-bg.webp);
   background-position: center;
   background-size: cover;
@@ -13,7 +15,6 @@
 }
 
 .footer-address-wrap {
-  padding-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -128,7 +129,6 @@
 }
 
 .footer-text-wrap {
-  padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
@@ -147,8 +147,11 @@
 /* ===================TAB-768================== */
 
 @media (min-width: 768px) {
-  .footer-text-wrap {
+  footer{
     padding-bottom: 25px;
+  }
+
+  .footer-text-wrap {
     margin-top: 0;
   }
   .footer-address-wrap {
@@ -158,7 +161,6 @@
   .footer-address-soc-btn {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
     margin-bottom: 74px;
   }
 
@@ -186,12 +188,15 @@
 
 @media (min-width: 1280px) {
 
+  footer{
+    padding-top: 50px;
+  }
+
   .footer-list-soc {
     gap: 20px;
   }
 
   .footer-address-soc-btn {
-    padding-top: 50px;
     margin-bottom: 50px;
   }
 

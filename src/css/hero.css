@@ -176,13 +176,10 @@
     flex-direction: row;
     gap: 20px;
   }
-  .hero-text {
-    padding-bottom: 136px;
-  }
   .hero-img {
     width: 397px;
   }
   .hero-students-reviews {
-    margin-bottom: 50px;
+    margin-top: 185px;
   }
 }
