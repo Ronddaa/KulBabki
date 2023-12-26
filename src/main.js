@@ -15,3 +15,8 @@ modalBtnClose.addEventListener('click', function () {
   menu.classList.toggle('active');
   modaBackground.classList.toggle('active');
 });
+
+
+// swiper
+
+new Swiper('.swiper');
